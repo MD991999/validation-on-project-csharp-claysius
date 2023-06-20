@@ -67,7 +67,7 @@
             // 
             this.txtFirstname.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtFirstname.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFirstname.ForeColor = System.Drawing.Color.Purple;
+            this.txtFirstname.ForeColor = System.Drawing.Color.Plum;
             this.txtFirstname.Location = new System.Drawing.Point(201, 108);
             this.txtFirstname.Multiline = true;
             this.txtFirstname.Name = "txtFirstname";
@@ -112,7 +112,7 @@
             // 
             this.txtusername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtusername.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtusername.ForeColor = System.Drawing.Color.Purple;
+            this.txtusername.ForeColor = System.Drawing.Color.PaleVioletRed;
             this.txtusername.Location = new System.Drawing.Point(533, 354);
             this.txtusername.Multiline = true;
             this.txtusername.Name = "txtusername";
@@ -135,7 +135,7 @@
             // 
             this.txtemail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtemail.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtemail.ForeColor = System.Drawing.Color.Purple;
+            this.txtemail.ForeColor = System.Drawing.Color.PaleVioletRed;
             this.txtemail.Location = new System.Drawing.Point(201, 354);
             this.txtemail.Multiline = true;
             this.txtemail.Name = "txtemail";
@@ -158,7 +158,7 @@
             // 
             this.txtphone.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtphone.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtphone.ForeColor = System.Drawing.Color.Purple;
+            this.txtphone.ForeColor = System.Drawing.Color.PaleVioletRed;
             this.txtphone.Location = new System.Drawing.Point(533, 269);
             this.txtphone.Multiline = true;
             this.txtphone.Name = "txtphone";
@@ -192,7 +192,7 @@
             // 
             this.txtage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtage.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtage.ForeColor = System.Drawing.Color.Purple;
+            this.txtage.ForeColor = System.Drawing.Color.PaleVioletRed;
             this.txtage.Location = new System.Drawing.Point(533, 191);
             this.txtage.Multiline = true;
             this.txtage.Name = "txtage";
@@ -227,7 +227,7 @@
             // 
             this.txtlastname.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtlastname.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtlastname.ForeColor = System.Drawing.Color.Purple;
+            this.txtlastname.ForeColor = System.Drawing.Color.PaleVioletRed;
             this.txtlastname.Location = new System.Drawing.Point(533, 108);
             this.txtlastname.Multiline = true;
             this.txtlastname.Name = "txtlastname";
@@ -250,12 +250,13 @@
             // 
             this.txtaddress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtaddress.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtaddress.ForeColor = System.Drawing.Color.Purple;
+            this.txtaddress.ForeColor = System.Drawing.Color.PaleVioletRed;
             this.txtaddress.Location = new System.Drawing.Point(206, 593);
             this.txtaddress.Multiline = true;
             this.txtaddress.Name = "txtaddress";
             this.txtaddress.Size = new System.Drawing.Size(265, 37);
             this.txtaddress.TabIndex = 18;
+            this.txtaddress.TextChanged += new System.EventHandler(this.txtaddress_TextChanged);
             this.txtaddress.Leave += new System.EventHandler(this.txtaddress_Leave);
             // 
             // labelconfirmpassword
@@ -273,7 +274,7 @@
             // 
             this.txtconfirmpassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtconfirmpassword.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtconfirmpassword.ForeColor = System.Drawing.Color.Purple;
+            this.txtconfirmpassword.ForeColor = System.Drawing.Color.PaleVioletRed;
             this.txtconfirmpassword.Location = new System.Drawing.Point(533, 513);
             this.txtconfirmpassword.Multiline = true;
             this.txtconfirmpassword.Name = "txtconfirmpassword";
@@ -295,7 +296,7 @@
             // 
             this.txtpassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txtpassword.Font = new System.Drawing.Font("Myanmar Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtpassword.ForeColor = System.Drawing.Color.Purple;
+            this.txtpassword.ForeColor = System.Drawing.Color.PaleVioletRed;
             this.txtpassword.Location = new System.Drawing.Point(201, 513);
             this.txtpassword.Multiline = true;
             this.txtpassword.Name = "txtpassword";
@@ -326,10 +327,12 @@
             this.btnsignup.TabIndex = 26;
             this.btnsignup.Text = "Sign up";
             this.btnsignup.UseVisualStyleBackColor = false;
+            this.btnsignup.Click += new System.EventHandler(this.btnsignup_Click);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.button2.Enabled = false;
             this.button2.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(548, 675);
@@ -338,7 +341,7 @@
             this.button2.TabIndex = 27;
             this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+        //    this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // radiobuttonmale
             // 
@@ -376,7 +379,7 @@
             this.dateTimePicker.Name = "dateTimePicker";
             this.dateTimePicker.Size = new System.Drawing.Size(260, 28);
             this.dateTimePicker.TabIndex = 30;
-            this.dateTimePicker.Value = new System.DateTime(2023, 6, 19, 11, 6, 29, 0);
+            this.dateTimePicker.Value = new System.DateTime(2023, 1, 1, 0, 0, 0, 0);
             this.dateTimePicker.ValueChanged += new System.EventHandler(this.dateTimePicker_ValueChanged);
             this.dateTimePicker.Leave += new System.EventHandler(this.dateTimePicker_Leave);
             // 
@@ -427,8 +430,11 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoScroll = true;
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1212, 747);
             this.Controls.Add(this.buttonsignin);
             this.Controls.Add(this.comboboxdistrict);
@@ -461,7 +467,10 @@
             this.Controls.Add(this.labelFirstname);
             this.Controls.Add(this.txtFirstname);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
